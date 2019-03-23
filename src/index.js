@@ -13,6 +13,6 @@ module.exports = function getLoveTrianglesCount(preferences = []) {
   if (newAnotherLover == lovers){
     loveTriangles = loveTriangles + 1;
   }
-  } return(loveTriangles/3);
+  } (Math.round(loveTriangles/3));
   
 };
